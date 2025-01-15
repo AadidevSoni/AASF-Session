@@ -1,0 +1,14 @@
+git init
+git add index.txt
+git status
+git add .
+git status
+git commit -m "first comment"
+git status
+git log
+
+New repository
+git remote add origin https://github.com/AadidevSoni/AASF-Session.git
+copy to terminal
+git push origin main
+Authorize access
