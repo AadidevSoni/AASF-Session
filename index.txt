@@ -64,4 +64,7 @@ git switch <branch-name>   - to point to new branch
 make changes in files then,
 git add .
 git commit -m "feature branch added" 
+<<<<<<< HEAD
 git switch main.  //now the changes we made on feature branch are gone
+=======
+>>>>>>> feature
