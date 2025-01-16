@@ -1,3 +1,5 @@
+cd  - change directory 
+
 git init
 git add index.txt
 git status
@@ -12,3 +14,50 @@ git remote add origin https://github.com/AadidevSoni/AASF-Session.git
 copy to terminal
 git push origin main
 Authorize access
+
+ERROR:
+aadidev@Aadidevs-MacBook-Pro aasf % git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+        modified:   index.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+aadidev@Aadidevs-MacBook-Pro aasf % git add .
+\%                                                                                                                                                                 
+aadidev@Aadidevs-MacBook-Pro aasf % git add .
+\%                                                                                                                                                                 
+aadidev@Aadidevs-MacBook-Pro aasf % git commit -m "file changed" 
+[main e0bd02b] file changed
+ 2 files changed, 25 insertions(+)
+aadidev@Aadidevs-MacBook-Pro aasf % git push 
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+aadidev@Aadidevs-MacBook-Pro aasf % git push -u origin main 
+Enumerating objects: 7, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 11 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 588 bytes | 588.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/AadidevSoni/AASF-Session.git
+   6b69531..e0bd02b  main -> main
+branch 'main' set up to track 'origin/main'.
+aadidev@Aadidevs-MacBook-Pro aasf % 
+
+Cloning
+code - local - link - copy the link
+git clone "link"
+
+.git ignore - to hide the file
+git branch  - current branch
+git branch <branch-name>   - creating new branch
+git switch <branch-name>   - to point to new branch
